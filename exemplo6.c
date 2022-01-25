@@ -1,5 +1,5 @@
 /*
-Concatenação de dois vetores, gerando um vetor resultante.
+ConcatenaÃ§Ã£o de dois vetores, gerando um vetor resultante.
 
 */
 
@@ -27,7 +27,7 @@ int main(){
 
     //Concatenar os vetores
     cont = 0;
-    for(i = 0; i < tamResultante; i++){
+    for(i = 0; i < tam; i++){ //Corrigido.
         //Vamos concatenar os elementos.
         vr[cont] = v1[i];
         cont++;
